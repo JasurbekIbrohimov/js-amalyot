@@ -1,0 +1,143 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #cbce91ff, #ea738dff);
+}
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px, solid #ffffff;
+  outline: none;
+  background-color: rbga(255, 255, 255, 0.75);
+}
+
+.calculator-grid > button:hover {
+  background-color: #a9a9a9;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+.col input {
+  
+}
+
+.cal__con {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+.cal__con button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px, solid #ffffff;
+  outline: none;
+  border-radius: 50%;
+  padding: 30px 30px;
+  background-color: rbga(255, 255, 255, 0.75);
+}
+
+.btn1 {
+  background-color: rgb(160, 156, 156);
+  color: black;
+}
+.btn2 {
+  background-color: rgb(160, 156, 156);
+  color: black;
+}
+.btn3 {
+  background-color: rgb(160, 156, 156);
+  color: black;
+}
+.btn4 {
+  background-color: rgb(253, 213, 32);
+  color: #ffffff;
+}
+.btn5 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn6 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn7 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn8 {
+  background-color: rgb(253, 213, 32);
+  color: #ffffff;
+}
+.btn9 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn10 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn11 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn12 {
+  background-color: rgb(253, 213, 32);
+  color: #ffffff;
+}
+.btn13 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn14 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn15 {
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn16 {
+  background-color: rgb(253, 213, 32);
+  color: #ffffff;
+}
+.btn17 {
+  width: 195px;
+  border-radius: 90px !important;
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn18 {
+  position: relative;
+  left: 102px;
+  background-color: rgb(66, 59, 59);
+  color: #ffffff;
+}
+.btn19 {
+  position: relative;
+  left: 102px;
+  background-color: rgb(253, 213, 32);
+  color: #ffffff;
+}
